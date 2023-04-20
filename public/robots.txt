@@ -1,3 +1,10 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+
+Based on the code below answer the following queries:
+
+Explain what the simple List component does.
+What problems / warnings are there with code?
+Please fix, optimize, and/or modify the component as much as you think is necessary.
