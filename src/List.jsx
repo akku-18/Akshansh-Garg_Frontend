@@ -65,8 +65,9 @@ WrappedListComponent.propTypes = {
   })),
 };
 
+ // Fix: Added data to the items array
 WrappedListComponent.defaultProps = {
-  items: [{text:'item 1'}, {text:'item 2'}, {text:'item 3' }, {text:'item 4'}, {text:'item 5' }],  // Fix: Added data to the items array
+  items: [{text:'item 1'}, {text:'item 2'}, {text:'item 3' }, {text:'item 4'}, {text:'item 5' }], 
 };
 
 const List = memo(WrappedListComponent);
